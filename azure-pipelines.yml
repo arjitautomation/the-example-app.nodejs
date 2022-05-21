@@ -18,5 +18,5 @@ steps:
 - script: |
     npm config set fund false
     npm install
-    npm run build
+    npm audit fix
   displayName: 'npm install and build'
