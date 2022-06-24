@@ -17,9 +17,7 @@ steps:
 
 
 - script: |
-    npm config set fund false
     npm install
-    npm audit fix
   displayName: 'npm install and build'
 
 - task: PublishBuildArtifacts@1
